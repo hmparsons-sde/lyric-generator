@@ -3,20 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body {
-background: #98a398;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #98a398, #699cb3, #98a398);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #98a398, #699cb3, #98a398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background-color: #eebdb5;
 margin-top: 120px;
 }
 
 form {
-  background: #e0dec4;
-  background: -webkit-linear-gradient(to left, #e0dec4, #699cb3, #e0dec4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #e0dec4, rgb(243, 208, 195), #e0dec4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #eebdb5;
   border-style: solid;
   border-color: #b36b5e;
-  border-width: 3px;
+  border-width: 2px;
   border-radius: 20px;
   width: 40rem;
   margin: auto;
@@ -60,26 +55,5 @@ form {
 #artist-info {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  
   margin: 30px;
-}
-
-#content-container {
-  white-space: pre-line;
-  font-family: 'Lato', sans-serif;
-  color: white;
-  text-align: center;
-  margin: 30px;
-}
-
-@media only screen and (max-width: 769px) {
-  form {
-    background-color: white;
-    width: 25rem;
-    margin: auto;
-    font-family: 'Lato', sans-serif;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-  }
 }
